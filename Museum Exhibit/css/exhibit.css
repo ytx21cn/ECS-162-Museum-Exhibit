@@ -10,6 +10,12 @@
 	min-height: 100vh;
 }
 
+/* Navigation */
+.o-top-nav-bar--link {
+}
+.o-top-nav-bar--link:not(:last-child) {
+	border-right: 1px solid black;
+}
 
 /* Page header */
 
