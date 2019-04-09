@@ -1,1 +1,1 @@
-# ECS 162 assignments
+# ECS 162 assignment 2
