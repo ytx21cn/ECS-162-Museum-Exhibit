@@ -1,0 +1,30 @@
+@import url("reset.css");
+@import url("themes.css");
+@import url("exhibit-colors.css");
+
+/* Body layout */
+
+.l-body--flex {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+/* Page header */
+
+.c-info-header {
+	border-bottom-width: 1.33px;
+	border-bottom-style: solid;
+	padding-bottom: 0.5em;
+}
+
+/* Exhibition header */
+
+.c-exhibition-header--primary {
+	font-weight: bold;
+}
+
+.c-exhibition-header--secondary {
+	font-style: italic;
+}
