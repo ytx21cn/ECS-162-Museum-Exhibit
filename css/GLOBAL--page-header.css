@@ -1,5 +1,11 @@
 @import ("global-fonts.css");
 
+/* Page header, includes:
+	1. The name of the museum
+	2. The navigation bar
+	(on mobile view, their display order is reversed)
+*/
+
 .l-page-header {
 	display: flex;
 	flex-direction: column-reverse;
@@ -10,8 +16,18 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+/* The museum name */
+
+.c-page-header__name {
+	font-size: 10pt;
+	font-weight: lighter;
+}
+
+/* Navigation bar */
+
 .l-top-nav-bar {
 	display: flex;
+	padding-bottom: 1em;
 }
 
 .l-top-nav-bar--link {
