@@ -1,9 +1,11 @@
 @import url("reset.css");
 @import url("themes.css");
-@import url("exhibit-colors.css");
 
 @import url("page-header.css");
-@import url("page-body.css");
+
+@import url("exhibit--colors.css");
+@import url("exhibit--float-images.css");
+@import url("exhibit--fonts.css");
 
 /* Body layout */
 .l-body--flex {
@@ -12,10 +14,19 @@
 	min-height: 100vh;
 }
 
-.box {
+.l-box {
 	display: flex;
 	flex-direction: row;
 	min-height: 50vh;
+}
+
+.l-artist{
+	display: flex;
+	flex-direction: column;
+}
+
+.o-artist {
+	text-align: center;
 }
 
 /* Page header */
