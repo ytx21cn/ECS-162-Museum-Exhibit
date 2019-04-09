@@ -1,7 +1,13 @@
+@import ("global-fonts.css");
+
 .l-page-header {
 	display: flex;
 	flex-direction: column-reverse;
 	text-align: center;
+}
+
+.c-page-header {
+	font-family: "Montserrat", sans-serif;
 }
 
 .l-top-nav-bar {

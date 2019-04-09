@@ -1,8 +1,13 @@
 @import url("reset.css");
 @import url("themes.css");
-@import url("exhibit-colors.css");
 
 @import url("page-header.css");
+@import url("page-footer.css");
+
+@import url("exhibit--colors.css");
+@import url("exhibit--fonts.css");
+@import url("exhibit--float-images.css");
+
 
 /* Body layout */
 .l-body--flex {
