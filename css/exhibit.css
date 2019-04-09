@@ -20,15 +20,6 @@
 	min-height: 50vh;
 }
 
-.l-artist{
-	display: flex;
-	flex-direction: column;
-}
-
-.o-artist {
-	text-align: center;
-}
-
 /* Page header */
 
 .c-info-header {
