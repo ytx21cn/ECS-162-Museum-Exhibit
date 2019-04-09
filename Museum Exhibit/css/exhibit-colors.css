@@ -2,12 +2,16 @@
 	color: #c7563f;
 }
 
+.t-primary-block-background-color {
+	background-color: #f9ac78;
+} 
+
 .t-page-header--name__color {
 	color: #2e3192;
 }
 
+
 .t-exhibition-header__color {
-	background-color: #f9ac78;
 	color: white;
 }
 
