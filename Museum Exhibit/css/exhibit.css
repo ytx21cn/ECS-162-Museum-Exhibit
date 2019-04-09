@@ -1,13 +1,9 @@
 @import url("reset.css");
 @import url("themes.css");
+@import url("exhibit-colors.css");
 
 @import url("page-header.css");
-@import url("page-footer.css");
-
-@import url("exhibit--colors.css");
-@import url("exhibit--fonts.css");
-@import url("exhibit--float-images.css");
-
+@import url("page-body.css");
 
 /* Body layout */
 .l-body--flex {
@@ -16,6 +12,11 @@
 	min-height: 100vh;
 }
 
+.box {
+	display: flex;
+	flex-direction: row;
+	min-height: 50vh;
+}
 
 /* Page header */
 
