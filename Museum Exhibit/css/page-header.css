@@ -1,6 +1,6 @@
 .l-page-header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	text-align: center;
 }
 
