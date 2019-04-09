@@ -1,7 +1,9 @@
-@import url("reset.css");
-@import url("themes.css");
+@import url("GLOBAL--reset.css");
+@import url("GLOBAL--themes.css");
 
-@import url("page-header.css");
+@import url("GLOBAL--page-header.css");
+@import url("GLOBAL--page-body.css");
+@import url("GLOBAL--page-footer.css");
 
 @import url("exhibit--colors.css");
 @import url("exhibit--float-images.css");
@@ -32,8 +34,12 @@
 
 .c-exhibition-header--primary {
 	font-weight: bold;
+	font-size: 28pt;
 }
 
 .c-exhibition-header--secondary {
 	font-style: italic;
+	font-size: 20pt;
 }
+
+/* Main */

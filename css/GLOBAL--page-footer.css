@@ -1,0 +1,14 @@
+.l-page-footer {
+	display: flex;
+	flex-direction: column;
+	padding: 1em 2em;
+}
+
+.l-page-footer__section {
+	margin-bottom: 0.5em;
+}
+
+.o-page-footer__header {
+	font-size: 18pt;
+	font-weight: bold;
+}
