@@ -2,20 +2,15 @@
 @import url("themes.css");
 @import url("exhibit-colors.css");
 
-/* Body layout */
+@import url("page-header.css");
 
+/* Body layout */
 .l-body--flex {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
 
-/* Navigation */
-.o-top-nav-bar--link {
-}
-.o-top-nav-bar--link:not(:last-child) {
-	border-right: 1px solid black;
-}
 
 /* Page header */
 

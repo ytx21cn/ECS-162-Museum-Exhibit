@@ -1,0 +1,19 @@
+.l-page-header {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.l-top-nav-bar {
+	display: flex;
+}
+
+.l-top-nav-bar--link {
+	flex-grow: 1;
+}
+
+.o-top-nav-bar--link {	
+}
+.o-top-nav-bar--link:not(:last-child) {
+	border-right: 1px solid black;
+}
