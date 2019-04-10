@@ -27,15 +27,52 @@
 
 .l-top-nav-bar {
 	display: flex;
+	flex-grow: 1;
 	padding-bottom: 1em;
+	align-items: center;
 }
 
 .l-top-nav-bar--link {
 	flex-grow: 1;
 }
 
-.o-top-nav-bar--link {	
-}
 .o-top-nav-bar--link:not(:last-child) {
 	border-right: 1px solid black;
+}
+
+@media screen and (min-width: 700px) {
+	
+	/* Page header */
+	
+	.l-page-header {
+		flex-direction: row;
+	}
+	
+	.c-page-header {
+		font-size: 16pt;
+	}
+	
+	/* The museum name */
+	
+	.l-page-header__name {
+		padding-right: 2em;
+	}
+	
+	.c-page-header__name {
+		font-size: 16pt;
+	}
+	
+	/* Navigation bar */
+	
+	.l-top-nav-bar {
+		padding-bottom: initial;
+	}
+	
+	.l-top-nav-bar--link:not(:first-child) {
+		padding-left: 1em;
+	}
+	.l-top-nav-bar--link:not(:last-child) {
+		padding-right: 1em;
+	}
+	
 }

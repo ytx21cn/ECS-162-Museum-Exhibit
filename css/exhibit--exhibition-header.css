@@ -23,7 +23,7 @@
 	font-size: 20pt;
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
 	.l-exhibition-header {
 		display: flex;
 		flex-direction: row;
