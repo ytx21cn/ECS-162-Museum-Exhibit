@@ -5,10 +5,21 @@
 }
 
 .l-page-footer__section {
-	margin-bottom: 0.5em;
+	flex-grow: 1;
+	margin: 0.5em 0;
 }
 
 .o-page-footer__header {
 	font-size: 16pt;
 	font-weight: bold;
+}
+
+@media (min-width: 700px) {
+	.l-page-footer {
+		flex-direction: row;
+	}
+	
+	.l-page-footer__section {
+		padding-right: 0.5em;
+	}
 }

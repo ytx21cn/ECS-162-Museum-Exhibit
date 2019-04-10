@@ -28,6 +28,7 @@
 .l-top-nav-bar {
 	display: flex;
 	flex-grow: 1;
+	flex-wrap: wrap;
 	padding-bottom: 1em;
 	align-items: center;
 }
@@ -66,13 +67,14 @@
 	
 	.l-top-nav-bar {
 		padding-bottom: initial;
+		flex-wrap: nowrap;
 	}
 	
 	.l-top-nav-bar--link:not(:first-child) {
-		padding-left: 1em;
+		padding-left: 0.5em;
 	}
 	.l-top-nav-bar--link:not(:last-child) {
-		padding-right: 1em;
+		padding-right: 0.5em;
 	}
 	
 }

@@ -1,7 +1,23 @@
 .l-image--float-left {
 	float: left;
+	padding: 1em 0;
 }
 
 .l-image--float-right {
 	float: right;
+	padding: 1em 0;
+}
+
+@media (min-width: 700px) {
+	.l-image--float-left {
+		padding-right: 1em;
+	}
+	
+	.l-image--float-right {
+		padding-left: 1em;
+	}
+	
+	.o-image--float {
+		max-width: 400px;
+	}
 }

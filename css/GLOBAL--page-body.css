@@ -1,3 +1,7 @@
+.l-primary-margin {
+	margin: 1em;
+}
+
 .l-primary-padding {
 	padding: 0.25em 2em;
 }
@@ -5,3 +9,4 @@
 .l-secondary-padding {
 	padding: 1em;
 }
+
