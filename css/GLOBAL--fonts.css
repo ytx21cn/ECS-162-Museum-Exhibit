@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
 
 .t-header-font {
 	font-family: "Montserrat", sans-serif;
 }
 
 .t-primary-font {
-	font-family: Helvetica, sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-weight: lighter;
 }
