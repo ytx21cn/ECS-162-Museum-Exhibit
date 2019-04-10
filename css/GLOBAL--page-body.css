@@ -10,3 +10,17 @@
 	padding: 1em;
 }
 
+@media (min-width: 1024px) {
+	.l-primary-padding {
+		width: 1024px;
+		margin: auto;
+	}
+
+	
+	.l-secondary-padding {
+		width: 1024px;
+		margin: auto;
+	}
+
+}
+
