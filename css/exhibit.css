@@ -9,6 +9,8 @@
 @import url("exhibit--colors.css");
 @import url("exhibit--float-images.css");
 
+@import url("exhibit--exhibition-header.css");
+
 
 /* Body layout */
 
@@ -24,29 +26,6 @@
 	border-bottom-width: 1.33px;
 	border-bottom-style: solid;
 	padding: 0.5em 0;
-}
-
-/* Exhibition header */
-
-.l-exhibition-header {
-	position: relative;
-}
-
-.l-exhibition-header__box {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.c-exhibition-header--primary {
-	font-weight: bold;
-	font-size: 28pt;
-}
-
-.c-exhibition-header--secondary {
-	font-style: italic;
-	font-size: 20pt;
 }
 
 /* Main article */

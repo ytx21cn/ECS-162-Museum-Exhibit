@@ -1,0 +1,60 @@
+/* Exhibition header */
+
+.l-exhibition-header {
+	position: relative;
+	max-width: 1024px;
+	margin: auto;
+}
+
+.l-exhibition-header__artist {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.c-exhibition-header--primary {
+	font-weight: bold;
+	font-size: 28pt;
+}
+
+.c-exhibition-header--secondary {
+	font-style: italic;
+	font-size: 20pt;
+}
+
+@media screen and (min-width: 700px) {
+	.l-exhibition-header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.l-exhibition-header__artist {
+		position: initial;
+	}
+	
+	.l-exhibition-header__image {
+		max-height: 200px;
+	}
+	
+	.c-exhibition-header--primary {
+		font-size: 32pt;
+	}
+	
+	.c-exhibition-header--secondary {
+		font-size: 24pt;
+	}
+	
+
+}
+
+@media screen and (min-width: 800px) {
+	.c-exhibition-header--primary {
+		font-size: 40pt;
+	}
+	
+	.c-exhibition-header--secondary {
+		font-size: 32pt;
+	}
+}
