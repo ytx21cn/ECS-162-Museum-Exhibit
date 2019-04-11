@@ -1,20 +1,20 @@
 "use strict";
  
 const contentManipulator = new (function () {
-	const body = document.body;
-	const visibilityHook = "data-js-collapse-state";
+	const visibilityHook = document.body;
+	const visibilityAttr = "data-js-collapse-state";
 	const readMoreLinksHook = "js-expand-collapse-link--read-more";
 	const readLessLinksHook = "js-expand-collapse-link--read-less";
 	
 	Object.defineProperty(this, "readMore", {
 		value: function () {
-			body.setAttribute(visibilityHook, "false");
+			body.setAttribute(visibilityAttr, "false");
 		}
 	});
 	
 	Object.defineProperty(this, "readLess", {
 		value: function () {
-			body.setAttribute(visibilityHook, "true");
+			body.setAttribute(visibilityAttr, "true");
 		}
 	});
 	
