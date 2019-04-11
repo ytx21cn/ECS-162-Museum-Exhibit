@@ -1,12 +1,11 @@
-@import url("GLOBAL--reset.css");
-@import url("GLOBAL--themes.css");
-@import url("GLOBAL--fonts.css");
+@import url("reset.css");
+@import url("text-styles.css");
 
 @import url("GLOBAL--page-header.css");
 @import url("GLOBAL--page-body.css");
 @import url("GLOBAL--page-footer.css");
 
-@import url("GLOBAL--device-specific-content-visibility.css");
+@import url("GLOBAL--device-specific-content.css");
 
 @import url("exhibit--colors.css");
 @import url("exhibit--float-images.css");
