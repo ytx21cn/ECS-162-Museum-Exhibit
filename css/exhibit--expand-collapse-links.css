@@ -1,5 +1,6 @@
 .c-expand-collapse-link {
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .c-expand-collapse-link--read-more::after {
