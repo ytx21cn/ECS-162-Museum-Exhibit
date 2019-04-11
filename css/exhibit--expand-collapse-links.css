@@ -1,0 +1,19 @@
+.c-expand-collapse-link {
+	text-decoration: underline;
+}
+
+.c-expand-collapse-link--read-more::after {
+	content: "Read More \2192";
+}
+
+.c-expand-collapse-link--read-less::after {
+	content: "Read Less \2192";
+}
+
+[data-js-collapse-state="true"] .js-expand-collapse-link--read-less {
+	display: none;
+}
+
+[data-js-collapse-state="false"] .js-expand-collapse-link--read-more {
+	display: none;
+}

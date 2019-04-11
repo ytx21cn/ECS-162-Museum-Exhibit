@@ -1,0 +1,23 @@
+@media not (min-width: 700px) {
+
+	.u-device-specific--not-for-mobile {
+		display: none;
+	}
+	
+}
+
+@media (min-width: 700px) and (not (min-width: 1024px)) {
+	
+	.u-device-specific--not-for-tablet {
+		display: none;
+	}
+	
+}
+
+@media (min-width: 1024px) {
+	
+	.u-device-specific--not-for-web {
+		display: none;
+	}
+	
+}
