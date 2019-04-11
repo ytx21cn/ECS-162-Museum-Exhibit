@@ -13,12 +13,12 @@
 	right: 0;
 }
 
-.c-exhibition-header--primary {
+.o-exhibition-header--primary {
 	font-weight: bold;
 	font-size: 28pt;
 }
 
-.c-exhibition-header--secondary {
+.o-exhibition-header--secondary {
 	font-style: italic;
 	font-size: 20pt;
 }
@@ -38,11 +38,11 @@
 		max-height: 200px;
 	}
 	
-	.c-exhibition-header--primary {
+	.o-exhibition-header--primary {
 		font-size: 32pt;
 	}
 	
-	.c-exhibition-header--secondary {
+	.o-exhibition-header--secondary {
 		font-size: 24pt;
 	}
 	
@@ -50,11 +50,11 @@
 }
 
 @media screen and (min-width: 800px) {
-	.c-exhibition-header--primary {
+	.o-exhibition-header--primary {
 		font-size: 40pt;
 	}
 	
-	.c-exhibition-header--secondary {
+	.o-exhibition-header--secondary {
 		font-size: 32pt;
 	}
 }

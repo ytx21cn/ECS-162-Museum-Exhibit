@@ -1,11 +1,13 @@
 .l-image--float-left {
 	float: left;
-	padding: 1em 0;
+	padding: 1em;
+	padding-left: 0;
 }
 
 .l-image--float-right {
 	float: right;
-	padding: 1em 0;
+	padding: 1em;
+	padding-right: 0;
 }
 
 @media (min-width: 700px) {
@@ -17,11 +19,11 @@
 		padding-left: 1em;
 	}
 	
-	.o-image--float-wide {
+	.o-image--wide {
 		max-width: 400px;
 	}
 	
-	.o-image--float-narrow {
+	.o-image--narrow {
 		max-width: 300px;
 	}
 }

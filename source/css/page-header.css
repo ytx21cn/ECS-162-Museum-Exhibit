@@ -1,5 +1,3 @@
-@import ("GLOBAL--fonts.css");
-
 /* Page header, includes:
 	1. The name of the museum
 	2. The navigation bar
@@ -14,9 +12,6 @@
 	text-align: center;
 }
 
-.c-page-header {
-	font-family: "Montserrat", sans-serif;
-}
 
 /* The museum name */
 
@@ -24,7 +19,7 @@
 	flex-grow: 1;
 }
 
-.c-page-header__name {
+.o-page-header__name {
 	font-size: 10pt;
 	font-weight: lighter;
 }
@@ -67,7 +62,7 @@
 		padding-right: 2em;
 	}
 	
-	.c-page-header__name {
+	.o-page-header__name {
 		text-align: left;
 		font-size: 16pt;
 	}
