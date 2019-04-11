@@ -1,7 +1,9 @@
 .l-page-footer {
 	display: flex;
 	flex-direction: column;
+	max-width: 1024px;
 	padding: 1em 2em;
+	margin: auto;
 }
 
 .l-page-footer__section {

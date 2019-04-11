@@ -8,6 +8,9 @@
 
 .l-page-header {
 	display: flex;
+	max-width: 100%;
+	padding: 1em;
+	margin: auto;
 	flex-direction: column-reverse;
 	text-align: center;
 }
@@ -17,6 +20,10 @@
 }
 
 /* The museum name */
+
+.l-page-header__name {
+	flex-grow: 1;
+}
 
 .c-page-header__name {
 	font-size: 10pt;
@@ -41,7 +48,7 @@
 	border-right: 1px solid black;
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
 	
 	/* Page header */
 	
@@ -60,6 +67,7 @@
 	}
 	
 	.c-page-header__name {
+		text-align: left;
 		font-size: 16pt;
 	}
 	
@@ -75,6 +83,15 @@
 	}
 	.l-top-nav-bar--link:not(:last-child) {
 		padding-right: 0.5em;
+	}
+	
+}
+
+@media (min-width: 1024px) {
+	
+	.l-page-header {
+		padding: 1em 0;
+		min-width: 1024px;
 	}
 	
 }

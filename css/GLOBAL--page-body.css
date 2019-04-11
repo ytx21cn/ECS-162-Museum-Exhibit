@@ -1,26 +1,21 @@
-.l-primary-margin {
-	margin: 1em;
+/* Body */
+
+.l-body--flex {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
+
+
+/* Paddings */
 
 .l-primary-padding {
 	padding: 0.25em 2em;
 }
 
-.l-secondary-padding {
-	padding: 1em;
-}
-
 @media (min-width: 1024px) {
 	.l-primary-padding {
-		width: 1024px;
 		margin: auto;
 	}
-
-	
-	.l-secondary-padding {
-		width: 1024px;
-		margin: auto;
-	}
-
 }
 

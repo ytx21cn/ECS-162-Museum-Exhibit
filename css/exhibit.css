@@ -11,14 +11,10 @@
 
 @import url("exhibit--exhibition-header.css");
 
+@import url("exhibit--js-collapse.css");
+
 
 /* Body layout */
-
-.l-body--flex {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
 
 /* Info header */
 
@@ -33,4 +29,5 @@
 .l-main {
 	padding-top: 1em;
 	padding-bottom: 1em;
+	max-width: 1024px;
 }
