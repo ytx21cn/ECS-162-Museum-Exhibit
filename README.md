@@ -1,1 +1,1 @@
-# ECS 162 assignment 2
+# ECS 162 Assignment: Museum Exhibition Responsive Page
