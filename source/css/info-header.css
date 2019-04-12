@@ -1,9 +1,14 @@
 .l-info-header {
-	display: flow-root;
 	padding: 0.5em 0;
 }
 
 .o-info-header {
 	border-bottom-width: 1.33px;
 	border-bottom-style: solid;
+}
+
+@media (min-width: 700px) {
+	.l-info-header {
+		display: flow-root;
+	}
 }

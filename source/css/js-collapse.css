@@ -4,13 +4,22 @@
 
 /* Mobile view */
 
-@media (max-width: 700px) {
-	[data-js-collapse-state="true"] .data-js-collapse--tablet {
+@media (max-width: 699px) {
+	[data-js-collapse-state="true"] .data-js-collapse--mobile {
+		display: none;
+	}
+}
+
+/* Tablet view */
+
+@media (min-width: 700px) and (max-width: 1023px) {
+	.u-device--not-tablet {
 		display: none;
 	}
 }
 
 /* Web view (PC) */
+
 @media (min-width: 1024px) {
 	[data-js-collapse-state="true"] .data-js-collapse--web {
 		display: none;

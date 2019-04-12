@@ -49,7 +49,7 @@
 
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
 	.o-exhibition-header--primary {
 		font-size: 40pt;
 	}
