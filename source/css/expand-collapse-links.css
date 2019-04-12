@@ -1,13 +1,13 @@
-.c-expand-collapse-link {
+.o-expand-collapse-link {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-.c-expand-collapse-link--read-more::after {
+.o-expand-collapse-link--read-more::after {
 	content: "Read More \2192";
 }
 
-.c-expand-collapse-link--read-less::after {
+.o-expand-collapse-link--read-less::after {
 	content: "Read Less \2192";
 }
 

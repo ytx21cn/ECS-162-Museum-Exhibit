@@ -8,13 +8,13 @@ const contentManipulator = new (function () {
 	
 	Object.defineProperty(this, "readMore", {
 		value: function () {
-			body.setAttribute(visibilityAttr, "false");
+			visibilityHook.setAttribute(visibilityAttr, "false");
 		}
 	});
 	
 	Object.defineProperty(this, "readLess", {
 		value: function () {
-			body.setAttribute(visibilityAttr, "true");
+			visibilityHook.setAttribute(visibilityAttr, "true");
 		}
 	});
 	
